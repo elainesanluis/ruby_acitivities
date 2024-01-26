@@ -19,3 +19,4 @@ class Ninja
   
   naruto = RasenganUser.new("Naruto Uzumaki", "Hokage")
   puts naruto.can_use_rasengan? 
+  naruto.train
