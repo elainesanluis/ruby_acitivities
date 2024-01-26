@@ -1,7 +1,6 @@
 class FriedEgg
-    def initialize(pan_type, desired_doneness)
+    def initialize(pan_type)
       @pan_type = pan_type
-      @desired_doneness = desired_doneness
     end
   
     def cook
@@ -31,5 +30,5 @@ def serve
 
 end
 
-sunny_side_up_egg = FriedEgg.new("non-stick", :sunny)
+sunny_side_up_egg = FriedEgg.new("non-stick pan")
 sunny_side_up_egg.cook
