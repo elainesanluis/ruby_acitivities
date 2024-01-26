@@ -7,7 +7,7 @@ class Ninja
     end
   
     def train
-      puts "#{@name} trains hard to improve their skills."
+      puts "#{name} trains hard to improve their skills."
     end
   end
   

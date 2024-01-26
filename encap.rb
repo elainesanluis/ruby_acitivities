@@ -8,8 +8,7 @@ class Ninja
 
     def train
         @chakra_level += 20
-        puts "#{@name} has increased chakra to #{@chakra_level}!"
-        # puts "#{name} has increased chakra to #{chakra_level}!"
+        puts "#{name} has increased chakra to #{chakra_level}!"
     end
 end
 

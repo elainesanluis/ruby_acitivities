@@ -1,4 +1,5 @@
 class FriedEgg
+    attr_reader :pan_type
     def initialize(pan_type)
       @pan_type = pan_type
     end
@@ -13,7 +14,7 @@ class FriedEgg
     private
 
 def heat_pan
-puts "Heating up the #{@pan_type}..."
+puts "Heating up the #{pan_type}..."
 end
 
 def crack_egg
