@@ -10,7 +10,7 @@ class Confection
   
   class Cupcake < Confection
     def initialize(name, frosting_type)
-      super(name)
+    super(name)
       @frosting_type = frosting_type
     end
   
@@ -26,7 +26,5 @@ class Confection
   cupcake = Cupcake.new("Cupcake", "Pistachio")
   cupcake.prepare
   
-  
   banana_cake = BananaCake.new("Banana Cake")
   banana_cake.prepare
-  
