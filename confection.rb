@@ -23,7 +23,6 @@ class Confection
   class BananaCake < Confection
   end
   
-  # Example usage
   cupcake = Cupcake.new("Cupcake", "Pistachio")
   cupcake.prepare
   
