@@ -23,7 +23,7 @@ VALUES
 -- Update the first record
 
 UPDATE students
-SET first_name = 'Ivan', middle_name = 'Ingram', age = 25, last_name = 'Howard'
+SET first_name = 'Ivan', middle_name = 'Ingram', age = 25, last_name = 'Howard', location = 'Bulacan'
 WHERE id = 1;
 
 -- Delete last record in students table
@@ -34,7 +34,6 @@ WHERE id = 6;
 -- Display the counts of all students
 
 SELECT COUNT(id) FROM students
-
 
 -- Select all students with location is Manila
 
