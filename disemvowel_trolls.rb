@@ -1,20 +1,12 @@
 def remove_vowels(x)
     vowels = 'aeiouAEIOU'
     comment = ''
-    
-    x.each_char do |character|
-      vowels_found = false
   
-      vowels.each_char do |vowel|
-        if character == vowel
-          vowels_found = true
-          break  
-        end
-      end
-  
-      comment += character unless vowels_found
+    x.each_char do |char|
+      vowels_found = vowels.include?(char)
+      comment += char unless vowels_found
     end
-    
+  
     comment
   end
   
